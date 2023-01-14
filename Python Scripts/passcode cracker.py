@@ -8,7 +8,6 @@ import time
 used_pass = []
 
 
-
 def user_input():
     global length
     length = int(input("Enter length of password(1-10) "))
@@ -19,6 +18,8 @@ user_input()
 
 # hotkeys that will use the variables above
 def hotkeys():
+
+
     # moves mouse to center of screen and clicks
     pga.moveTo(960, 540)
     pga.leftClick()
@@ -26,7 +27,7 @@ def hotkeys():
     global temp
 
     time.sleep(3)
-    for x in range(6):
+    while True:
 
 
 
@@ -45,7 +46,7 @@ def hotkeys():
 
 
             # typing of password
-            time.sleep(1)
+
             pga.typewrite(f'{password}')
             pga.hotkey("enter")
             pga.hotkey("enter")

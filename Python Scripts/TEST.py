@@ -9,7 +9,7 @@ mainwindow = ctk.CTk()
 mainwindow.geometry("300x250")
 mainwindow.title("Quick Click")
 
-#adding a frame to put things inside of(frame is in the mainwindow)w
+#adding a frame to put things inside of (frame is in the mainwindow)w
 frame = ctk.CTkFrame(master=mainwindow)
 frame.pack(pady = 12, padx = 10)
 
