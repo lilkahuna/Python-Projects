@@ -1,7 +1,0 @@
-noodle, 10
-1, 1
-add, 1
-fish, 2
-dragon fruit, 5
-2, 1
-1, 23
